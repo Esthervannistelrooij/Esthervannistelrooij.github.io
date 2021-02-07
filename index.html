@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<title>WW1</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
+  <title>WW1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#size").click(function(){
+    $("p").toggleClass("p_big");
+    $("h2").toggleClass("h2_big");
+    $("h4").toggleClass("h4_big");
+    $("td").toggleClass("td_big");
+    $("th").toggleClass("th_big");
+    $("li").toggleClass("li_big");
+    });
+  });
+  </script>
 </head>
 <body>
 <!--KOP-->
@@ -20,7 +33,7 @@
   <a href="menu3.html">Loopgravenoorlog</a>
   <a href="menu4.html">Wapens</a>
   <a href="menu5.html">Gevolgen</a>
-  <a href="#" class="right">Link</a>
+  <a class="right" id="size">Grootte</a>
 </div>
 
 <div class="row">
@@ -29,6 +42,7 @@
     <p>Er waren in de Eerste Wereldoorlog drie groepen waar je bij kan horen.
        Hieronder staan een paar van de belangrijkste landen die mee hebben gevochten.
        Ondanks dat de Centralen met minder waren hielden ze het wel lang vol.</p>
+	   
     <h4>De Centralen</h4>
 	  <ul>
 	    <li>Duitsland</li>
@@ -64,12 +78,12 @@
     </figure>
 
 
-    <h5>Waarom is het een wereldoorlog?</h5>
+    <h4>Waarom is het een wereldoorlog?</h4>
     <p>Er waren natuurlijk al zat oorlogen en gevechten geweest. Toch is deze iets anders en daarom wordt het ook een wereldoorlog genoemd.
 	Zoals je op het plaatje ziet was bijna de hele wereld aan het vechten. Dit komt door de koloni&euml;n van de vechtende landen. 
 	Alle koloni&euml;n moesten ook mee vechten dus werd er op meerdere continenten gevochten. Wanneer dit gebeurd noemen we het een wereldoorlog.</p>
 	
-	<h5>Een totale oorlog</h5>
+	<h4>Een totale oorlog</h4>
     <p>Normaalgesproken merkt de bevolking niet veel van een veldslag of van een oorlog. Dat was in dit geval wel anders. 
 	De mannen bleven langer weg dan gedacht en konden dus niet verder werken in de fabrieken en andere zware karweien.
 	De vrouwen moesten toen het werk van de mannen overnemen, ook kinderen moesten meehelpen. Jongens moesten meestal al vroeg in het leger.
