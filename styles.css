@@ -11,6 +11,101 @@ body {
   margin: 0;
 }
 
+/* text */
+p {display: block;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: 0;
+   margin-right: 0;
+   font-size: 1.0em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.p_big {font-size: 1.2em;
+}
+/* headings */
+h1 {display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.h2_big {font-size: 1.7em;
+}
+h3 {display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h4 {display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.h4_big {font-size: 1.2em;
+}
+h5 {display: block;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	color:#494949;
+}
+h5:hover {color: red;
+}
+.h5_big {font-size: 1.2em;
+}
+h6 {display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+/* table */
+table, th, td {
+  border: .1em solid black;
+  border-collapse: collapse;
+}
+th {display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: left;
+	padding: 5px;
+	background-color: #ddd;
+}
+.th_big {font-size: 1.2em;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  padding: 5px;
+}
+.td_big {font-size: 1.2em;
+}
+li {font-size: 1.0em;
+}
+.li_big {font-size: 1.2em;
+}
+
 /*Header*/
 .header_std {
   padding: 60px;
@@ -43,6 +138,7 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* Style the navigation bar links */
@@ -53,6 +149,7 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* Right-aligned link */
@@ -64,12 +161,14 @@ body {
 .navbar a:hover {
   background-color: #ddd;
   color: black;
+  font-weight: bold;
 }
 
 /* Change color on hover */
 .navbar a.cur:hover {
   background-color: #333;
   color: red;
+  font-weight: bold;
 }
 
 
@@ -106,7 +205,6 @@ figcaption {
   padding: 2px;
   text-align: left;
 }
-
 /* link */
 a:link {
   text-decoration: none;
@@ -132,7 +230,7 @@ a:active {
 .footer_std {
   padding: 2px;
   text-align: center;
-  background: #777; /*#ddd;*/
+  background: #333;/* #777; #ddd;*/
   color: white;
 }
 
